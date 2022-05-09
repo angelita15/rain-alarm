@@ -1,0 +1,68 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 120vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: #dcdcf0;
+  background: -webkit-linear-gradient(to right #d4d5ba, #0f6fc3);
+  background: linear-gradient(to right, #f3f186, #4892ec);
+}
+
+#contenedor {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+} 
+
+.card text-center {
+  height: 400px;
+  width: 222px; 
+  left: auto;
+  right: 10px;
+  top: 50px;
+  background-image: url(https://i.picsum.photos/id/384/200/300.jpg?hmac=XxaMr3mI-4OhEVSNwfLw4oqF4Je819ACxZKz52AzXvQ);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  opacity: 0,8;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #e0e3eb;
+  border-bottom-style: solid;
+}
+
+.card-body {
+  height: 500px;
+  width: 222px;
+  left: auto;
+  right: auto;
+  top: 200px;
+  background-image: url(https://i.picsum.photos/id/384/200/300.jpg?hmac=XxaMr3mI-4OhEVSNwfLw4oqF4Je819ACxZKz52AzXvQ);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  opacity: 0,9;
+  font-size: 15px;
+  font-weight: bold;
+  text-align:center; 
+  color: #0bf73a; 
+  justify-content:space-around; 
+  border-bottom-style:solid;
+}
+
+#rain {
+  display: none;
+}
+#noRain {
+  display: none;
+} 
